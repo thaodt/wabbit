@@ -1,4 +1,4 @@
-#[derive(Debug, PartialEq)]
+#[derive(Debug, Clone, PartialEq)]
 pub enum Token {
     // Single-character tokens.
     LeftParen,
@@ -26,16 +26,12 @@ pub enum Token {
     LogicalNot,
 
     // Identifiers.
-    //Name(String),
     Identifier(String),
 
     // Literals.
     Integer,
     Float,
     Char,
-    // Integer(i32),
-    // Float(f64),
-    // Char(char),
     // Bool(bool),
 
     // Keywords.
