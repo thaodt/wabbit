@@ -1,0 +1,21 @@
+/* prog1.wb - Hello World */
+
+/*
+Wabbit programs execute much like a scripting language.
+Execution starts at the top of the file and statements
+run one after the other.  Here's how you print "hello".
+*/
+
+print 'H';
+print 'e';
+print 'l';
+print 'l';
+print 'o';
+print '\n';
+
+/* Wabbit doesn't feature text-strings--only single characters.
+   So, you've got to use multiple print statements like that.
+   Of course, you could extend Wabbit with new features if you wanted. */
+
+/* To run it, do this: python3 wabbit.py prog1.wb */
+
